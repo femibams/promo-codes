@@ -18,3 +18,6 @@
 
 1. Replace the value of `NODE_ENV` in `.env` file to `"test"`
 2. RUN `npm test`
+
+## API documentation
+https://documenter.getpostman.com/view/564573/TzmChtBH
