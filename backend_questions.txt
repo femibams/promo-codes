@@ -1,0 +1,29 @@
+- How do you document your backend code?
+
+I document my code with comments and by also applying coding conventions, such as file organisation, comments, naming conventions, programming practices, etc. as they make code readable.
+I include a readme file that contains mostly a brief description of the project, installation instructions and I also write documentation to describe functions(what they do, parameters/arguments and return value). I also use tools like POSTMAN/Swagger to document APIs.
+
+
+- What are your thoughts on testing for the backend?
+
+With complex databases and large amounts of data, backend testing is a vital step towards high-quality software. 
+Backend testing is incredibly important as It helps detect bugs at an early stage thus reducing the cost of fixing them. I have owned data hefty and complex software and testing has proven to be vital to me, it provides assurance that data is properly stored and retrieved when required and also to assure the best quality of your product.
+
+
+- What Design Patterns that you have used in your backend projects?
+
+The Observer Design Pattern
+The Decorator Design Pattern
+
+
+- What do you think about Typescript on the backend?
+
+Typescript offers types which helps with intellisense and also helps other developers understand your code since function signatures are clear (input and output).
+Use of interface helps us code to abstractions rather than concretion, allowing our code to be more extensible and “mockable”. This also follows the solid principles (dependency inversion principle)
+
+
+- What are the most important performance issues in NodeJS web applications?
+
+The biggest drawback of Node.js even now is its inability to process CPU bound tasks. Nodejs as we know is single threaded, it processes task asynchronously, it executes JS code on its single thread on an event basis. The problem occurs when Node.js receives a CPU bound task: Whenever a heavy request comes to the event loop, Node.js would set all the CPU available to process it first, and then answer other requests queued. 
+That results in slow processing and overall delay in the event loop, which is why Node.js is not recommended for heavy computation.
+Due to its asynchronous nature of node it relies heavily on callbacks, the functions that run after each task in the queue is finished. Keeping a number of queued tasks in the background, each with its callback, might result in a callback hell, which directly impacts the quality of code.
