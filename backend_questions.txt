@@ -14,7 +14,7 @@ Backend testing is incredibly important as It helps detect bugs at an early st
 
 The Observer Design Pattern
 The Decorator Design Pattern
-
+The Facade Design Pattern
 
 - What do you think about Typescript on the backend?
 
